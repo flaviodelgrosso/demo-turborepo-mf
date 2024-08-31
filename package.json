@@ -1,0 +1,19 @@
+{
+  "name": "demo-turborepo-mf",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "preview": "turbo preview",
+    "format": "turbo format"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.1",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.8.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

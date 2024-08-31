@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.remote-app {
+  background-color: rgb(33, 134, 222);
+  padding: 50px;
+  border: #101725 3px dashed;
+  border-radius: 20px;
+}
